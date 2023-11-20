@@ -69,8 +69,13 @@ todoItems.push(todoItems);
 // that matches the id passed to the function, remove it from the array
 // the function does not need to return anything
 function removeToDoItem(todoId) {
+  for (let i=0 ; i<todoItems.length ; i++) {
+  if(todoItems[i].id === todoId) {
+     todoItems.splice(i, 1);
+    break;  
+  }
 }
-
+}
 
 
 
