@@ -46,7 +46,7 @@
 // }
 
 // Initialise an empty array with the variable name todoItems
-let todoItems [];
+let todoItems = [];
 
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
@@ -96,7 +96,7 @@ function markToDoItemAsCompleted(todoId) {
 // the function does not need to return anything, though you can return
 // true or false depending on whether the item was successfully deleted
 function deleteToDoItem(todoId) {
-  
+
 }
 
 // Function to clear all completed tasks
