@@ -46,7 +46,7 @@
 // }
 
 // Initialise an empty array with the variable name todoItems
-
+let emptyArray [];
 // Function to add a todo to the list
 // It should accept a string as a parameter (text of the todo item)
 // and it should add a new todo item to the todoItems array
