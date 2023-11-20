@@ -24,6 +24,7 @@ function markToDoItemAsCompleted(todoId) {
   for (let i=0 ; i<todoItems.length ; i++) {
     if (todoItems[i].id === todoId) {
       todoItems[i].completed = true;
+      break;
     }
   }
 }
