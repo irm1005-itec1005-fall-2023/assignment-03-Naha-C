@@ -3,7 +3,7 @@ let todoItems = [];
 
 function addToDoItem(text) {
 let todoItems = {
-  id: todoItems.length,
+  id: Date.now(),
   text: "This is a todo item",
   completed: false,
 }
