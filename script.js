@@ -2,12 +2,12 @@ let todoItems = [];
 
 
 function addToDoItem(text) {
-let todoItems = {
+let todoItem = {
   id: Date.now(),
   text: "This is a todo item",
   completed: false,
 }
-todoItems.push(todoItems);
+todoItems.push(todoItem);
 }
 
 
