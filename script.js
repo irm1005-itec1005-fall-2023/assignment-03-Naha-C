@@ -1,13 +1,15 @@
 let todoItems = [];
+let count = 0
 
 
 function addToDoItem(text) {
 let todoItem = {
-  id: Date.now(),
+    id: count,
   text: "This is a todo item",
   completed: false,
 }
 todoItems.push(todoItem);
+count = count+1
 }
 
 
@@ -36,7 +38,11 @@ function markToDoItemAsCompleted(todoId) {
 // the function does not need to return anything, though you can return
 // true or false depending on whether the item was successfully deleted
 function deleteToDoItem(todoId) {
-
+  for (let i=0 ; i<todoItems.length ; i++) {
+    if(todoItems[i].id === todoId) {
+      todoItems.splice(i, 1); 
+    }
+  }
 }
 
 
